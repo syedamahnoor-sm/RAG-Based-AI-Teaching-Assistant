@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Original videos and generated audio
+videos/
+audios/
+
+# Vector databases and embeddings
+chroma_db/
+chroma/
+vector_store/
+faiss_index/
+*.faiss
+*.pkl
+
+# Temporary and generated files
+temp/
+tmp/
+logs/
+*.log
+*.tmp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
