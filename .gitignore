@@ -17,6 +17,9 @@ env/
 videos/
 audios/
 
+# Generated transcription files
+jsons/
+
 # Vector databases and embeddings
 chroma_db/
 chroma/
