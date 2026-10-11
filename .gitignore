@@ -19,6 +19,8 @@ audios/
 
 # Generated transcription files
 jsons/
+data/
+data/video_embeddings.pkl
 
 # Vector databases and embeddings
 chroma_db/
